@@ -21,7 +21,7 @@ public class Person {
 
     @NotEmpty
     @Size(min = 2, max = 100, message = "Name should be between 2 and 100 characters")
-    private String username;
+    private String userName;
 
     @Min(value = 1900, message = "Year should be more than 1900")
     @Column(name = "year_of_birth")
